@@ -1,0 +1,151 @@
+body{
+    margin:0px;
+    text-align: center; /* aligns inline level elements within block elements */
+    font-family: 'Montserrat', sans-serif;
+}
+.top{
+    background-color:#EAEAEA;
+    position: relative;
+    padding-top: 100px;
+}
+h1{
+    margin: 60px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.6rem;
+    color: #66BFBF;
+    /* line-height: 2; */
+    /* width : 50%; if width is different use below method
+    margin: 0 auto; Another way of centering */
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2rem;
+    color: #66BFBF;
+    /* font-weight: normal; */
+}
+h3{
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+.pro{
+    text-decoration: underline;
+}
+.middle-container{
+    margin:40px auto 60px;
+}
+.bottom{
+    background-color: aliceblue;
+}
+.topcloud{
+    position: absolute;
+    right: 22%;
+    top: 40px;
+}
+.bottomcloud{
+    position: absolute;
+    left: 22%;
+}
+.att{
+    font-size:x-small ;
+    color: whitesmoke;
+    margin:0;
+    
+}
+
+.code-imag{
+    width: 25%;
+    float: left;
+    margin-right: 32px;
+}
+/* clear is used to de-float an element beased on directions like left,right */
+.sing-imag{
+    width: 25%;
+    float: right;
+    margin-left: 32px;
+}
+.skill-row{
+    padding-top: 20px;
+    width:50%;
+    margin: 50px auto 100px auto;
+    text-align : left;
+    line-height: 2;
+}
+p{
+    line-height: 2;
+    font-size: 1.1rem;
+}
+hr{
+    border-style: dotted none none;
+    border-width: 6px;
+    width: 50px;
+    border-color: lightgray;
+}
+.titleh2{
+    font-weight: normal;
+}
+.profile{
+    margin: 45px auto;
+}
+.myimg{
+    border-radius: 100%;
+    border-style: solid;    
+    border-width: 4px;
+}
+.btn {
+    position: relative;
+    top:15px;
+    background: #b0c9d9;
+    background-image: -webkit-linear-gradient(top, #b0c9d9, #2980b9);
+    background-image: -moz-linear-gradient(top, #b0c9d9, #2980b9);
+    background-image: -ms-linear-gradient(top, #b0c9d9, #2980b9);
+    background-image: -o-linear-gradient(top, #b0c9d9, #2980b9);
+    background-image: linear-gradient(to bottom, #b0c9d9, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #96e3dd;
+    background-image: -webkit-linear-gradient(top, #96e3dd, #32c9a6);
+    background-image: -moz-linear-gradient(top, #96e3dd, #32c9a6);
+    background-image: -ms-linear-gradient(top, #96e3dd, #32c9a6);
+    background-image: -o-linear-gradient(top, #96e3dd, #32c9a6);
+    background-image: linear-gradient(to bottom, #96e3dd, #32c9a6);
+    text-decoration: none;
+  }
+  .bottom-container{
+    background-color:#11999E ;
+    color: whitesmoke;
+    padding-top: 25px;
+    margin-bottom: 0px;
+  }
+  .footer-link{
+    margin: 10px 5px;
+    color: #046c70;
+    font-weight: bolder;
+    text-decoration: none;
+    position: relative;
+    top:10px;
+    font-size: 1.1rem;
+  }
+  .footer-link:hover{
+    color: whitesmoke;
+  }
+  .cr{
+    margin-top: 1.2rem;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-size: 0.75rem;
+  }
+/* diplay:None removes the element altogether */
+/* visibility:hidden makes the element invisible */
